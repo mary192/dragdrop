@@ -2,91 +2,100 @@ body
 {
 background-repeat:no-repeat;
 background-attachment:scroll;
-background-position:95%;
-}
-
-body{
-background-color: #C0C0C0;
-color: #000;
-font-weight: 400;
+height:100%;
+margin:0px;
+padding:0px;
+background: black;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 13px;
 }
 
 #Informe{
-margin-left:220px;
-    margin-top:-990px;
-    width:1000px;
-    height:830px;
+ margin-left:220px;
+    margin-top:-500px;
+    width:850px;
+    height:630px;
     font-size: 28px;
     font-family:'Reenie Beanie',arial,sans-serif; 
     border-radius: 5px;
     color: #111;
-    background-image: url(papel.png);
     background-repeat: no-repeat;
     background-color:#FFF;
     background-position:270px, 10px;
 }
 
 #header{
+color:white;
 font-family: 'Helvetica', arial, serif;
 font-size:40px;
-text-shadow: 6px 6px 6px #4A766E;
+text-shadow: 7px 7px 7px yellow;
 font-weight: 1000;
-}
-
-input, textarea{
-	border: 5px solid #cbcbcb;
-	padding: 6px;
-	color: black;
-	font-size: 25px;
-	
-	-moz-border-radius: 5px;
-	-khtml-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	border-radius: 5px;
 }
 
 
 #contenedorInfo{
+margin-left:10px;
+font-size:18px;
+position:relative;
+z-index:3;
 text-align: center;
-<<<<<<< HEAD
-height: 1050px;
-=======
-height: 1000px;
->>>>>>> cde216eff5688ecf7726fb5910a87649b31540e2
+height: 500px;
 width: 160px;
-border-width:3px;
+border-width:3px#EAEAAE;
 border-style:solid;
 border-color:gray;
- 
+border:10px outset #cccccc;
+background-color:#cccccc;
+
+font-family: Arial, Helvetica, sans-serif;
+font-size: 17px;
+color: #4E2F2F;
+position:relative;
+
 }
 
-<<<<<<< HEAD
+.pp{
+tyle=color:purple; 
+size= 30px;
+}
+
 #editable{
-margin-left:10px;
-margin-top:1000px; 
-}
-
-=======
->>>>>>> cde216eff5688ecf7726fb5910a87649b31540e2
-.alerta{
-	width: 700px;
+position:relative;
+z-index:2;
+margin-top:500px; 
+width: 600px;
 	min-height: 80px;
  	float: right;
  	padding: 10px;
 	color: #525252;
 	
-	-webkit-box-shadow: 7px 7px 7px #FE9A2E;
-	-moz-box-shadow: 4px 4px 4px #FE9A2E;
-	box-shadow: 3px 3px 0px #FE9A2E;
+	-webkit-box-shadow: 7px 7px 7px #99CC32;
+	-moz-box-shadow: 4px 4px 4px #99CC32;
+	box-shadow: 3px 3px 0px #99CC32;
 	
- 	background-color: #FDD017;
+ 	background-color: #D8D8BF;
 	font-size: 20px;
  	
- 	margin: 10px 200px 20px 10px; 
+ 	
+margin: 10px 200px 20px 10px; 
 	
 	-moz-border-radius: 4px;
 	-khtml-border-radius: 4px;
 	-webkit-border-radius: 4px;
 	border-radius: 8px;
-	
+}
+
+#Foto{
+margin-top:-400px;
+margin-left:600px
+font-size: 28px;
+font-family:'Reenie Beanie',arial,sans-serif; 
+margin-left:10px;
+margin-top:300px; 
+}
+
+#bordes{
+
+border:1px solid #336699;
+float:left;
 }
