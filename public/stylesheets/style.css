@@ -48,7 +48,11 @@ input, textarea{
 
 #contenedorInfo{
 text-align: center;
+<<<<<<< HEAD
 height: 1050px;
+=======
+height: 1000px;
+>>>>>>> cde216eff5688ecf7726fb5910a87649b31540e2
 width: 160px;
 border-width:3px;
 border-style:solid;
@@ -56,11 +60,14 @@ border-color:gray;
  
 }
 
+<<<<<<< HEAD
 #editable{
 margin-left:10px;
 margin-top:1000px; 
 }
 
+=======
+>>>>>>> cde216eff5688ecf7726fb5910a87649b31540e2
 .alerta{
 	width: 700px;
 	min-height: 80px;
